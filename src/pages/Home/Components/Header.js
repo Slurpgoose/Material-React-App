@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'left',
     flexGrow: 1,
   },
+  avatar: {
+    borderRadius: 0,
+  },
 }));
 
 const Header = () => {
@@ -33,7 +36,7 @@ const Header = () => {
     <AppBar position="static">
       <Toolbar>
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-          <Avatar alt="wall street bets icon" src="/static/images/logo.png" />
+          <Avatar className={classes.avatar} alt="site logo" src="/static/images/logo.png" />
         </IconButton>
         <Typography variant="h3" className={classes.title}>
           Material UI Template
