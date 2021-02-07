@@ -36,7 +36,7 @@ const Header = () => {
           <Avatar alt="wall street bets icon" src="/static/images/logo.png" />
         </IconButton>
         <Typography variant="h3" className={classes.title}>
-          Stonks Chat
+          Material UI Template
         </Typography>
         {auth && (
           <div>
